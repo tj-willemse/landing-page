@@ -1,0 +1,10 @@
+.footer__box{
+    padding: 10px;
+    background-color: rgb(31, 41, 58);
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    opacity: 30%;
+}

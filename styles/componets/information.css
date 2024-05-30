@@ -1,0 +1,39 @@
+.information__box{
+   background-color: white;
+   margin: 20px;
+   height: 300px;
+}
+.information__title{
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 30px;
+  
+}
+
+.information__boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information__text{
+    max-width: 17ch;
+    font-size: 0.7rem;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.box__text{
+    margin-top: 40px;
+    border: 1px solid blue;
+    height: 90px;
+    width: 110px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.box__text:hover{
+    background-image: url(./images.jpg);
+    background-position: center;
+    border: purple;
+    border-radius: 10px;
+   
+}

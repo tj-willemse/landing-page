@@ -1,0 +1,25 @@
+.header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31, 41, 58);
+    padding: 10px;
+}
+.header__title{
+    text-transform: uppercase;
+    color: white;
+  padding-left: 100px;
+   
+}
+.header__menu{
+    display: flex;    
+    gap: 2rem;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.header__btn{
+    color: white;
+    padding-right: 100px;
+}

@@ -1,0 +1,21 @@
+.quote__boxmain{
+    height: 200px;
+    background-color: lightgray;
+    padding-top: 50px;
+}
+
+.quote__box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60ch;
+    margin: auto;
+}
+.quote__box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 380px;
+}
+

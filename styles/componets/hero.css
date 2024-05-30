@@ -1,0 +1,53 @@
+.hero__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   padding: 100px;
+   background-color: rgb(31, 41, 58);
+
+}
+.title__box{
+    /* border: 1px solid black; */
+    display: flex;
+   flex-direction: column;
+   width: 600px;
+   height: 200px;
+   color: white;
+}
+.hero__title{
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    max-width: 18ch;
+    line-height: 1;
+}
+.hero__description{
+    max-width: 45ch;
+    margin-top: 10px;
+}
+
+.hero__btn{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.hero__btn:hover{
+    font-size: 1rem;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+}
+.placeholder__box{
+    /* border: 1px solid black; */
+    background-color: grey;
+   width: 600px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}

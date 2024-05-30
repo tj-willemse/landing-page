@@ -1,0 +1,25 @@
+/* Preset for css */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+button{
+    margin: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    border: none;
+   
+}
+body{
+        font-family: "Roboto", sans-serif;
+}
+

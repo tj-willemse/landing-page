@@ -1,0 +1,63 @@
+.sign__boxmain{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgb(48, 86, 252);
+    border-radius: 10px;
+    color: white;
+    width: 900px;
+    margin: auto;
+   }
+  
+   .sign__info{
+      /* border: 1px solid black; */
+      width: 500px;
+      padding: 10px;
+   }
+  
+   .sign__title{
+      text-transform: capitalize;
+   }
+  
+   .sign__description{
+      max-width: 60ch;
+   }
+   .sign__button{
+      border: 1px solid white;
+      border-radius: 5px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px;
+      width: 200px;
+      height: 50px;
+      transition: all 0.5s;
+   }
+   .sign__button:hover{
+      background-color: red;
+      border: none;
+      border-radius: 15px;
+      color: black;
+   }
+  .sign__btn{
+      color: white;
+  }
+   .background__box{
+      margin: 100px;
+   }
+
+
+
+ @media (max-width: 1280px) {
+    .sign__boxmain{
+        width: 500px;
+    }
+ } 
+ @media (max-width: 639px) {
+    .sign__boxmain{
+        width: 200px;
+        display: none;
+    }
+   
+ } 
